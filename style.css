@@ -68,7 +68,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Countdown Styles */
 .countdown {
     display: flex;
     justify-content: center;
@@ -119,7 +118,7 @@ h2 {
     position: absolute;
     right: 60.5%;
     bottom: 0;
-    z-index: 1; /* Ensures it's below the button */
+    z-index: 1; 
     pointer-events: none;
     animation: surprise 14s linear infinite;
 }
